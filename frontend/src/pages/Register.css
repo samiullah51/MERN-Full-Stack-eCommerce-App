@@ -1,0 +1,71 @@
+.register{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc;
+    background-image:url("/public/images/cat/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.form{
+    opacity: .9;
+    background-color: #fff;
+    padding: 20px;
+    width: 50%;
+    border-radius: 5px;
+}
+.form h2{
+    font-weight: 200;
+    margin: 10px 0;
+}
+.form .inputs input{
+    padding: 8px;
+    margin-right: 8px;
+    margin-bottom: 20px;
+    width: 47%;
+    border: none;
+    outline: 1px solid #ccc;
+    font-size: 15px;
+}
+.form p{
+    font-size: 14px;
+}
+.form span{
+    font-weight: bold;
+    
+}
+.form button{
+    border: none;
+    outline: none;
+    padding: 10px 40px;
+    background-color: rgb(41, 148, 103);
+    color: #fff;
+    margin-top: 20px;
+}
+.form button:hover{
+    background-color: rgb(22, 85, 59);
+    cursor: pointer;
+}
+.error{
+    background-color: rgb(203, 80, 80);
+    color: #fff;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+/* Responsive */
+@media screen and (max-width:700px ){
+    .form{
+        width: 98%;
+    }
+    .form .inputs{
+        width: 100%;
+    }
+    .form input{
+        width: 100%;
+    }
+}

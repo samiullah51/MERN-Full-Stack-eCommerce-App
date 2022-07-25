@@ -1,0 +1,42 @@
+.checkout{
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 70%;
+    margin: 20px auto;
+}
+.checkout .order__type{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+.total p{
+font-size: 40px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ .checkout__btn2{
+     width: 99%;
+    background-color: #000;
+    border: 2px solid transparent;
+    color: #fff; 
+    outline: none;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+}
+.checkout__btn2:hover{
+    background-color: transparent;
+    border: 2px solid #000;
+    color: #000;
+    cursor: pointer;
+}
+/* Responsive */
+@media screen and (max-width:700px ){
+    .checkout{
+        width: 100%;
+        margin-left: 25%;
+    }
+}

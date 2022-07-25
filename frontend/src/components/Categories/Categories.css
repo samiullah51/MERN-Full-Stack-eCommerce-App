@@ -1,0 +1,13 @@
+.categories{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+@media screen and (max-width:700px ) {
+    .categories{
+        flex-direction: column;
+    }
+}

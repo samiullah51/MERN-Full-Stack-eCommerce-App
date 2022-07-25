@@ -1,0 +1,62 @@
+h1{
+    margin: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    position: relative;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.catTitle::after{
+    content: "";
+    width: 20%;
+    height: 2px;
+    background-color: rgb(13, 111, 156);
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,50%);
+  
+}
+.filter__container{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.filter__container h2{
+    font-weight: 100;
+    margin: 0 25px;
+}
+.filter,.sort{
+    display: flex;
+    align-items: center;
+}
+.sort{
+    margin-right: 15px;
+}
+.filter select, .sort select{
+    padding: 5px;
+    margin-right: 10px;
+}
+ select option{
+    display: block;
+ 
+    font-size: 14px;
+}
+
+/* Responsive */
+@media screen and (max-width:700px ){
+    .filter__container{
+       
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .filter{
+        margin: 10px 0;
+    }
+    h2{
+        font-size: 18px;
+    }
+}

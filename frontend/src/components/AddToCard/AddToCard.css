@@ -1,0 +1,35 @@
+.addtocard{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.cart__btn{
+    padding: 10px;
+    outline: none;
+    border: 2px solid rgb(41, 148, 103);
+    background-color: transparent;
+  width: 100%;
+  margin-top: 20px;
+}
+.cart__btn:hover{
+    background-color: rgba(0, 0, 0, 0.199);
+    cursor: pointer;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.sign{
+    padding: 7px 14px;
+    font-size: 25px;
+    border: 1px solid rgb(41, 148, 103);
+    border-radius: 5px;
+    margin: 0 10px;
+    
+}
+.counter{
+    font-weight: bold;
+    font-size: 20px;
+}
