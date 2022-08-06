@@ -9,6 +9,7 @@ import HomePage from "./pages/HomePage";
 import ProductList from "./pages/ProductList";
 import { useSelector } from "react-redux";
 import ProtectedRoutes from "./ProtectedRoutes";
+import Otp from "./Otp";
 
 function App() {
   return (
