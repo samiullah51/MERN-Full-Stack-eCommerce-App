@@ -1,5 +1,4 @@
 # Full(MERN) Stack e-Commerce App
-## Description
 This is a full MERN Stack e-commernce app built in react.JS/redux, node.Js. A user can register and find all the products he/she interests in. Many categories used to 
 store the product of individual categoriy. You can select any size of product and any color you want and which are available in the stock. For the authentication, I have used JWT(JSON Web Token). After selecting any product, add it to the cart and can pay bill via stripe.
 ## Frontend Technologies
