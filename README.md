@@ -1,10 +1,6 @@
 ## MERN Stack E-commerce Application (React/Redux + Nodejs/Express + MongoDB) + Stripe Payment
 This is an E-commerce Application using the modern web technologies.  
-<div id="badges">
-  <a href="https://pakshopcenter.herokuapp.com/">
-    <img src="https://img.shields.io/badge/Live Demo-dodgerblue?style=for-the-badge&logo=li&logoColor=white"  alt="Li"/>
-  </a>
-</div>
+
 
 ## Home Page
 <img src="https://github.com/samiullah51/MERN-Full-Stack-eCommerce-App/blob/main/frontend/3.PNG" width="80%" height="450">
